@@ -1,0 +1,26 @@
+---
+alwaysApply: true
+---
+# What Senyo Said - Frontend Project
+
+## Project Overview
+This is the frontend for "What Senyo Said" - a wiki-style application to collect and display interesting phrases, quotes, and sayings from Senyo, a colleague in the office.
+
+## Project Features
+- **Main Page**: Displays a collection of Senyo's sayings
+- **Social Media Card Format**: Each saying is displayed as a card with:
+  - The saying/quote text
+  - Timestamp of when it was added
+- **Add Quote Button**: Allows users to add new Senyo quotes
+- **Simple UI**: Clean, straightforward interface for browsing and adding quotes
+
+## Technical Stack
+- React with TypeScript
+- Vite for build tooling
+- Tailwind CSS (based on components.json)
+- shadcn/ui components
+
+## Development Notes
+- This is frontend-only; backend integration will be handled separately
+- Focus on creating an intuitive, social media-like experience for viewing quotes
+- Keep the UI simple and clean to let Senyo's wisdom shine through
