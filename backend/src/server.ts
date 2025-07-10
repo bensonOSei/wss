@@ -14,7 +14,7 @@ const app = express();
  * Configure CORS middleware
  */
 app.use(cors({
-  origin: process.env['FRONTEND_URL'] || '*',
+  origin: config.FRONTEND_URL,
   credentials: true,
 }));
 

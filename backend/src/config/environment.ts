@@ -10,6 +10,7 @@ const environmentSchema = z.object({
   NODE_ENV: z.enum(['development', 'production', 'test']).default('development'),
   PORT: z.string().transform((val) => parseInt(val, 10)).default(3000),
   MONGODB_URI: z.string().default('mongodb://localhost:27017/senyoquotes'),
+  FRONTEND_URL: z.string().default('http://localhost:5173'),
 });
 
 /**
