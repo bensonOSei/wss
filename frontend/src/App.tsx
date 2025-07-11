@@ -33,7 +33,7 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-4xl mx-auto px-4 py-6">
-          <h1 className="text-3xl font-bold text-gray-900">What Senyo Said</h1>
+          <h1 className="text-3xl font-bold text-gray-900">Senyo Once Said</h1>
           <p className="text-gray-600 mt-2">A collection of wisdom from our office sage</p>
         </div>
       </header>
